@@ -43,7 +43,6 @@
     .brand { display: flex; align-items: center; gap: 10px; }
     .brand img { width: 32px; height: 32px; border-radius: 8px; }
     .brand span { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
-    .brand em { color: var(--purple-light); font-style: normal; }
 
     .nav-links { display: flex; align-items: center; gap: 4px; }
     .nav-links a {
@@ -297,7 +296,7 @@
 <nav>
   <a class="brand" href="#">
     <img src="https://i.imgur.com/QnM1V4F.png" alt="GDStats" />
-    <span>GD<em>Stats</em></span>
+    <span style="color:#fff">GD<span style="color:var(--purple-light)">Stats</span></span>
   </a>
   <div class="nav-links">
     <a href="#features">Features</a>
@@ -317,7 +316,7 @@
           <span class="online-dot"></span>
           Online
         </div>
-        <h1>GD<em>Stats</em></h1>
+        <h1>GD<span style="color:var(--purple-light)">Stats</span></h1>
       </div>
     </div>
     <p class="hero-desc">The Geometry Dash stats bot for Fluxer. Look up players, levels, leaderboards, daily demons, and more — all with a simple command.</p>
@@ -385,7 +384,7 @@
 <section class="section">
   <div class="cta-box">
     <div>
-      <h2>Ready to add <em>GDStats</em>?</h2>
+      <h2>Ready to add <span style="color:var(--purple-light)">GDStats</span>?</h2>
       <p>Free to use. No setup required. Works instantly.</p>
     </div>
     <a class="btn-add" href="https://web.fluxer.app/oauth2/authorize?client_id=1474938000422215690&scope=bot&permissions=4503599627455488" target="_blank" style="white-space:nowrap;flex-shrink:0">+ Add to Fluxer</a>
